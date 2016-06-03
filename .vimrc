@@ -2,10 +2,12 @@ execute pathogen#infect()
 syntax enable
 set number
 set showcmd
+set expandtab
 set shiftwidth=2
 set tabstop=2
 set autoindent
 set smartindent
+set paste
 colorscheme monokai
 filetype plugin indent on
 set laststatus=2
